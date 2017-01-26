@@ -269,7 +269,8 @@ body {
       height: 600px; }
     body main #results {
       height: 300px;
-      width: 100%; }
+      width: 100%;
+      position: relative; }
       body main #results .candidateresult {
         margin-top: 40px;
         width: 20%;
