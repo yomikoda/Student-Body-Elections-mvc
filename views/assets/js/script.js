@@ -78,7 +78,7 @@ $(function(){
                  $('#results').empty();
                 
                 for(var i=0; i<data.length; i++){
-                    var result = "<div class='candidateresult'><p>'"+data[i].firstname+" "+data[i].lastname+"'</p><p>'"+data[i].count+"'</p></div>";
+                    var result = "<div class='candidateresult'><p>'"+data[i].firstname+" "+data[i].lastname+"'</p><p>"+data[i].count+"</p></div>";
                     
 //                    
                     
