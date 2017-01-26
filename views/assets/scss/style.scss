@@ -173,13 +173,26 @@ body {
         }
         
         #voted{
-            
+            height:600px;
         }
         #results{
-            height:3050px;
-            width:25%;
-            background-color:red;
-            
+            height:300px;
+            width:100%;
+        
+            .candidateresult{
+                margin-top:40px;
+                width:20%;
+                margin-left:4%;
+                height:70%;
+                box-sizing: border-box;
+                border:2px solid white;
+                border-radius: 25px;
+                float:left;
+                p{
+                    width:100%;
+                    line-height: 30px;
+                }
+            }
         }
     }
 }

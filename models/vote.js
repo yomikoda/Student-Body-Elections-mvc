@@ -4,7 +4,7 @@ module.exports = function(app, data){
     this.table = 'votes';
     this.voter = data.voter || null;
     this.candidate = data.candidate;
-    
+    this.count = data.count;
     this.get = function(cb){
 //        var q = "SELECT * FROM " + this.table ;
 //          var q = "SELECT * FROM candidate LEFT JOIN users ON users.id = candidate.id";

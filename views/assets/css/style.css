@@ -265,5 +265,22 @@ body {
         text-align: center;
         color: white;
         font-family: arial; }
+    body main #voted {
+      height: 600px; }
+    body main #results {
+      height: 300px;
+      width: 100%; }
+      body main #results .candidateresult {
+        margin-top: 40px;
+        width: 20%;
+        margin-left: 4%;
+        height: 70%;
+        box-sizing: border-box;
+        border: 2px solid white;
+        border-radius: 25px;
+        float: left; }
+        body main #results .candidateresult p {
+          width: 100%;
+          line-height: 30px; }
 
 /*# sourceMappingURL=style.css.map */
